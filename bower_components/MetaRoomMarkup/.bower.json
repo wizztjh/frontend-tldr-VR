@@ -1,0 +1,48 @@
+{
+  "name": "MetaRoomMarkup",
+  "version": "0.0.1",
+  "authors": [
+    "jiahen <wizztjh@gmail.com>"
+  ],
+  "keywords": [
+    "virtual reality",
+    "webVR",
+    "web-components",
+    "VR"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "dist/metaroom-markup.html"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "*",
+    "web-component-tester": "Polymer/web-component-tester#~3.2.0",
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "threejs": "r71",
+    "metaroom-webvr-polyfill": "https://raw.githubusercontent.com/MetaRoomMarkup/webvr-polyfill/master/build/webvr-polyfill.js",
+    "threejs-VREffect": "https://raw.githubusercontent.com/mrdoob/three.js/01d7456ac5052ea6c00a8dd9ff526d0332ef88be/examples/js/effects/VREffect.js",
+    "threejs-VRControls": "https://raw.githubusercontent.com/mrdoob/three.js/01d7456ac5052ea6c00a8dd9ff526d0332ef88be/examples/js/controls/VRControls.js",
+    "webvr-boilerplate": "borismus/webvr-boilerplate",
+    "meta-table-geometry": "git@github.com:vr-collab/meta-table-geometry.git"
+  },
+  "homepage": "https://github.com/MetaRoomMarkup/MetaRoomMarkup",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "b858059e7e5437c07127f9d55c1e9b1cb4f4769f"
+  },
+  "_source": "git://github.com/MetaRoomMarkup/MetaRoomMarkup.git",
+  "_target": "~0.0.1",
+  "_originalSource": "MetaRoomMarkup",
+  "_direct": true
+}
